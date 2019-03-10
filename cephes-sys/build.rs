@@ -1,6 +1,3 @@
-use std::env;
-use std::path::PathBuf;
-
 use cc::Build;
 
 fn main() {
@@ -28,13 +25,4 @@ fn main() {
     build.warnings(false);
     build.opt_level(2);
     build.compile("cephes");
-
-    let bindings = bindgen::Builder::default()
-        .header("cephes/cephes.h")
-        .generate()
-        .expect("Generating bindings failed");
-    let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
-    bindings
-        .write_to_file(out_path.join("bindings.rs"))
-        .expect("Couldn't write bindings!");
 }
