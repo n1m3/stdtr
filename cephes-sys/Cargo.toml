@@ -1,0 +1,11 @@
+[package]
+name = "cephes-sys"
+version = "0.1.0"
+authors = ["Nils Mehrtens <nils@hasinila.de>"]
+edition = "2018"
+
+[dependencies]
+
+[build-dependencies]
+cc = "~1.0"
+bindgen = "~0.48.1"
