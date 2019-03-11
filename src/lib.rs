@@ -1,6 +1,6 @@
 use failure::{ensure, Error};
 
-use cephes_sys as ffi;
+use stdtr_sys as ffi;
 
 /// Computes the integral from minus infinity to t of the Student
 /// t distribution with integer k > 0 degrees of freedom

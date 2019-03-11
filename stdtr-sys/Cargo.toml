@@ -1,5 +1,5 @@
 [package]
-name = "cephes-sys"
+name = "stdtr-sys"
 version = "0.1.0"
 authors = ["Nils Mehrtens <nils@hasinila.de>"]
 edition = "2018"

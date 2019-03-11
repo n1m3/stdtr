@@ -2,7 +2,7 @@ This crate bundles the Cephes library (http://www.netlib.org/cephes/).
 It is compatibly licensed:
 
 Name: Cephes
-Files: cephes-sys/cephes/*
+Files: stdtr-sys/cephes/*
 License: 3-clause BSD
   Distributed under 3-clause BSD license with permission from the author,
   see https://lists.debian.org/debian-legal/2004/12/msg00295.html
