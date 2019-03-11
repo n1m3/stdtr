@@ -6,4 +6,4 @@ edition = "2018"
 
 [dependencies]
 failure = "~0.1.5"
-cephes-sys = { path = "cephes-sys" }
+cephes-sys = { path = "cephes-sys", version = "~0.1" }
