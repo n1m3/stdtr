@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Nils Mehrtens <nils@hasinila.de>"]
 edition = "2018"
 build = "build.rs"
+description = "Raw bindings for the `stdtr` and `inc_beta` functions from the Cephes math library"
 
 [dependencies]
 libc = "~0.2.50"
