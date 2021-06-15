@@ -1,6 +1,14 @@
-use failure::{ensure, Error};
-
 use stdtr_sys as ffi;
+
+pub type Error = &'static str;
+
+macro_rules! ensure {
+    ($predicate:expr, $($tt:tt)*) => {
+        if !$predicate {
+            return Err($($tt)*);
+        }
+    }
+}
 
 /// Computes the integral from minus infinity to t of the Student
 /// t distribution with integer k > 0 degrees of freedom
