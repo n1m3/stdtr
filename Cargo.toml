@@ -1,6 +1,6 @@
 [package]
 name = "stdtr"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Nils Mehrtens <nils@hasinila.de>"]
 edition = "2018"
 description = "minimal Rust bindings for the `stdtr` and `inc_beta` functions from the Cephes math library"
